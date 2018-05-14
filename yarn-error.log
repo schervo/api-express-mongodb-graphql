@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/schervo/.nvm/versions/node/v8.10.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js
+
+PATH: 
+  /Users/schervo/.nvm/versions/node/v8.10.0/bin:~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:/opt/local/bin:/opt/local/sbin:/Users/admin/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/schervo/Library/Android/sdk/tools:/Users/schervo/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "node-js-sample",
+    "version": "0.2.0",
+    "description": "A sample Node.js app using Express 4",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.13.3"
+    },
+    "engines": {
+      "node": "4.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/heroku/node-js-sample"
+    },
+    "keywords": [
+      "node",
+      "heroku",
+      "express"
+    ],
+    "author": "Mark Pundsack",
+    "contributors": [
+      "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+    ],
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at Object.checkOne (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:62444:11)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:22773:75
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:23451:28)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:95:12
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:22777:27
