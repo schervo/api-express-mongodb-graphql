@@ -5,4 +5,3 @@ export {
   isAdminResolver,
 } from './permissions'
 
-export { processUpload } from './upload'

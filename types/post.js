@@ -1,16 +1,5 @@
 export default `
 
-  scalar Upload
-
-  type File {
-    id: ID!
-    path: String!
-    filename: String!
-    mimetype: String!
-    encoding: String!
-  }
-
-
   type Post{
     _id: ID!
     by: User
@@ -33,6 +22,5 @@ export default `
   }
   type Mutation{
     createPost(post: iPost): Post!
-    singleUpload(file: Upload!): File!
   }
 `

@@ -5,7 +5,6 @@ import { makeExecutableSchema } from 'graphql-tools'
 import { fileLoader, mergeTypes, mergeResolvers } from 'merge-graphql-schemas'
 import mongoose from 'mongoose'
 import path from 'path'
-import { apolloUploadExpress } from 'apollo-upload-server'
 import cors from 'cors'
 import config from './config'
 import models from './models'
@@ -39,7 +38,6 @@ app.use(cors())
 app.use(
   '/graphql',
   bodyParser.json(),
-  apolloUploadExpress(),
   graphqlExpress(req => ({
     schema,
     context: {
